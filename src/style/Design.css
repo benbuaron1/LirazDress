@@ -1,0 +1,54 @@
+.design {
+    margin:auto;
+    margin-top: 20px;
+}
+
+.design .finalDes  {
+    /*width: 400px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-direction: column;*/
+}
+
+.design .finalDes img {
+    width: 300px;
+    height: 300px;
+}
+.design .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.smImg {
+    width:100px;
+    height: 100px;
+    cursor: pointer;
+    border: 0.8px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 5px;
+    padding:5px;
+    box-shadow:2px 2px rgba(128, 128, 128, 0.16);
+}
+
+/*.smImg:active {*/
+/*    transform: scaleX(1.05);*/
+/*}*/
+
+.activePhoto {
+    transform: scale(1.1);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.order {
+    margin-top: 50px;
+    direction: rtl;
+    /*margin: 10px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}

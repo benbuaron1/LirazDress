@@ -1,0 +1,48 @@
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btnLike {
+    background: none;
+    border: none;
+}
+
+.catalog .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.catalog h3{
+    font-size: 35px;
+}
+
+.itemCard {
+    width: 350px;
+    max-height: 640px;
+    text-align: center;
+    color:black;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    /*background-color: white;*/
+}
+
+.itemCard:hover {
+    transform: scale3d(1.05,1.05,1.05);
+    cursor: pointer;
+
+}
+.itemCard img {
+    width: 95%;
+    height: 400px;
+    /*height: 60%;*/
+}
+.itemCard h3 {
+    font-size: 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.7);
+}
